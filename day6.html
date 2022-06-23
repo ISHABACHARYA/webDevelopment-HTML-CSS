@@ -1,0 +1,136 @@
+<!-- The most basic html tags -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Redmen Ishab" />
+    <meta name="description" content="A boot camp in web development" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- This is a container that includes
+    1. title of the content 
+    2. A paragraph of  introduction to the author
+    3. The paragraphs has text that is bold, strong, italic, emphasized, small, mark/highlighted and deleted sub and sup tags for base and power representation-->
+    <div>
+      <!-- div is the container that starts form new line -->
+      <h1>
+        <!-- header tags ranges from h1 - h6 such that each differs only in size. Header tags enclosed text are bold and bigger in size. -->
+        Welcome !
+      </h1>
+      <h2>You son of god !</h2>
+      <p>
+        Hi, My name is <b>Ishab Acharya</b>. I am a
+        <strong>software engineer</strong> and <strong>lecturer</strong> at
+        <b>NCIT</b> .<br />
+        <!-- br is a null tag thus doesn't require closing tag -->
+        I am currently open to job and my usual rate is $<del>25</del> 20 /
+        hour.<br />
+
+        You can ping me on discord <i> @redmenIshab#8066</i> or follow me on
+        <a
+          href="https://github.com/ishabacharya"
+          target="_blank"
+          title="Go to Ishab's page"
+        >
+          github </a
+        >or
+        <!-- hyperlink are used to pass the URL routes enclosed with <a> tag it requires href compulsory. Also use target and title attributes
+        <em>medium</em> . Contact me at:
+        <b> 9<sub>8</sub>60<sup>2</sup>5012 </b>
+        <!-- paragraph is the content section that also begins from new line -->
+      </p>
+    </div>
+
+    <div>
+      <h2>Places I have visited</h2>
+      <!-- <a href="https://unsplash.com" target="_blank"> -->
+      <img
+        src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=8"
+        alt="annapurna"
+        height="300"
+        width="300"
+      />
+      <!-- img is a self closing tag. src can take local images path or URL. It's other key attributes are height, width, alt -->
+      <!-- </a> -->
+    </div>
+  </body>
+
+  <div>
+    <table>
+      <!-- table aligns datas in rows and columns ie. tr and td-->
+      <thead>
+        <!-- thead and tbody doesn't make difference but is always a good convetion to use -->
+        <tr>
+          <!-- tr creates a row in the table -->
+          <th colspan="2">School/ College</th>
+          <!-- th and td are similar except th is used to table heads and it adds bold -->
+          <th>Passed Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- tr creates a row in the table -->
+          <td colspan="2">NCIT</td>
+          <td>2020</td>
+        </tr>
+        <tr>
+          <!-- tr creates a row in the table -->
+          <td colspan="2">White House</td>
+          <td>2015</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div>
+    <ol type="1" start="10">
+      <!-- type can be i,1,I,A,a and start attribute to start the ordering from-->
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ol>
+    <ul type="square">
+      <!-- type:circle,disc,square,none -->
+      <li>Item I</li>
+      <li>Item II</li>
+      <li>Item III</li>
+    </ul>
+
+    <li>test 1</li>
+    <li>test 2</li>
+  </div>
+
+  <div>
+    <form>
+      <label>Your Email</label> <br />
+      <input type="text" /><br />
+      <!-- type can be any of the text, number, radio, checkbox, button, email, date and so on -->
+      <!-- other attributes are checked, disabled, value and many more-->
+      <label>Contact Number</label> <br />
+      <input type="number" /><br />
+      <label>Gender</label> <br />
+      <input type="radio" checked required />
+      <label>Male</label>
+      <input type="radio" />
+      <label>Female</label>
+      <br />
+      <input type="button" value="Submit" />
+    </form>
+  </div>
+
+  <div>
+    <video controls autoplay>
+      <source src="https://youtu.be/U5syMIJ5JRA" type="video/mp4" />
+    </video>
+  </div>
+</html>

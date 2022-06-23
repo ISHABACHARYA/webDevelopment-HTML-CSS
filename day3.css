@@ -1,0 +1,12 @@
+* {
+  padding-left: 1em;
+}
+
+.myHeader {
+  font-size: 1.5em;
+  color: "#1d1d1d";
+}
+
+#header2 {
+  font-size: 3em;
+}

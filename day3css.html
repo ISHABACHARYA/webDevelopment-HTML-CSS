@@ -1,0 +1,56 @@
+<!-- The most basic html tags -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./day3.css" type="text/css" />
+    <!-- external css -->
+  </head>
+  <body>
+    <!-- This is a container that includes
+    1. title of the content 
+    2. A paragraph of  introduction to the author
+    3. The paragraphs has text that is bold, strong, italic, emphasized, small, mark/highlighted and deleted sub and sup tags for base and power representation-->
+    <div>
+      <!-- div is the container that starts form new line -->
+      <h1 class="myHeader">
+        <!-- header tags ranges from h1 - h6 such that each differs only in size. Header tags enclosed text are bold and bigger in size. -->
+        Welcome !
+      </h1>
+      <h2 id="header2">You son of god !</h2>
+      <p id="introP">
+        Hi, My name is <b>Ishab Acharya</b>. I am a
+        <strong>software engineer</strong> and <strong>lecturer</strong> at
+        <b>NCIT</b> .<br />
+        <!-- br is a null tag thus doesn't require closing tag -->
+        I am currently open to job and my usual rate is $<del>25</del> 20 /
+        hour.<br />
+
+        You can ping me on discord <i> @redmenIshab#8066</i> or follow me on
+        <a
+          href="https://github.com/ishabacharya"
+          target="_blank"
+          title="Go to Ishab's page"
+        >
+          github </a
+        >or
+        <!-- hyperlink are used to pass the URL routes enclosed with <a> tag it requires href compulsory. Also use target and title attributes
+        <em>medium</em> . Contact me at:
+        <b> 9<sub>8</sub>60<sup>2</sup>5012 </b>
+        <!-- paragraph is the content section that also begins from new line -->
+      </p>
+    </div>
+
+    <div>
+      <h2 class="myHeader">Places I have visited</h2>
+      <!-- <a href="https://unsplash.com" target="_blank"> -->
+      <img
+        src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=8"
+        alt="annapurna"
+        height="300"
+        width="300"
+      />
+      <!-- img is a self closing tag. src can take local images path or URL. It's other key attributes are height, width, alt -->
+      <!-- </a> -->
+    </div>
+  </body>
+</html>
